@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Absensi Karyawan</title>
-    <link rel="stylesheet" href="css & Bootstrap/master.css">
+    <link rel="stylesheet" href="css & bootstrap/master.css">
   </head>
   <body>
       <header>
@@ -13,7 +13,11 @@
   <a href="#">Absensi</a>
   <a href="#">Login</a>
   <a href="#">Logout</a>
-  <img src="image/idch.png" height="70px" width="250px">
+  <div class="gambar">
+    <img src="image/idch.png" width="275px" height="125px">
+  </div>
+
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
       </nav>
       </header>
