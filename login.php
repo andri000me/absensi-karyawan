@@ -48,9 +48,9 @@ if (isset($_POST['login'])) {
 						$row = mysqli_fetch_assoc($login);
 
 						if($row['level'] == admin && $level == admin){
-												$_SESSION['username']=$user;
-												$_SESSION['level']='admin';
-												header("Location: index.php");
+						$_SESSION['username']=$user;
+						$_SESSION['level']='admin';
+						header("Location: index.php");
 											}
 						else if($row['level'] == karyawan && $level == karyawan){
 						$_SESSION['username']=$user;
