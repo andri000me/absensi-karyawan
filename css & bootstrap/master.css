@@ -3,22 +3,25 @@ body {margin:0;}
 
 .topnav {
   overflow: hidden;
-  background-color: #07adeb;
+  background-color: #0973af;
+  height: 75px;
+
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #ffffff;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: monospace;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: rgb(255, 255, 255);
+  color: #003275;
 }
 
 .topnav .icon {
@@ -46,5 +49,12 @@ body {margin:0;}
     text-align: left;
   }
 
+}
+.gambar {
+float: right;
+margin-right: 100px;
+margin-top: -25px;
+height: 20px;
+width: auto;
 }
 </style>
